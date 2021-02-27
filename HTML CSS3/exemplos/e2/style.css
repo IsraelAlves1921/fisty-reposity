@@ -1,0 +1,40 @@
+body {
+    background: lightgrey url(logo.png) no-repeat center fixed;
+    background-size: 400px;
+}
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+/*TABELAS*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#rodape {
+text-align: center;
+
+}
+
+#rodapepag {
+    font-style: normal;
+    padding: 5rem 0 0;
+    text-align: center;
+}
+
+#formulario {
+    background-position: left;
+    background-size: 20px;
+}
+
+#Usuario {
+    text-align: justify;
+}
+
+#Senha {
+    padding: 1rem 0 0 0;
+}

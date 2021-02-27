@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste tabela</title>
+</head>
+<body>
+    <h1>Curso HTML & CSS</h1>
+
+    <form id="formulario" action="logo.png" method="post">
+        <div id="Usuario">Usuário</div>
+            <input class="camp-usuario" type="text" name="usuário"/> <br>
+        <div id="Senha">Senha</div>
+            <input type="password" name="senha"/>
+            <br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </form>
+<br>
+<br>
+<!--Inserir tabela-->
+    <table border="1"> <!--estilo "borda"-->
+        <thead> <!--Cabeçalho-->
+            <tr> <!--linha tabela-->
+                <th>Nome</th> <!--Dados da célula-->
+                <th>Idade</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody> <!--corpo da tabela-->
+            <tr> <!--linha tabela-->
+                <td>Israel</td>
+                <td rowspan="2">20</td>
+                <!--ROWSPAN: mesclar vertical-->
+                <td rowspan="2">São paulo</td>
+            </tr>
+            <tr>
+                <td>Israel</td>
+            </tr>
+        </tbody>
+        
+        <tfoot> <!--Rodapé cabeçalho-->
+            <tr>
+                <td colspan="3"; id="rodape">rodapé1</td>
+                <!--COLSPAN: mesclar horizontal-->
+            </tr>
+        </tfoot>
+    </table>
+
+    <table id="cidade" border="5">
+        <thead>
+            <th>Cidade</th>
+            <th>UF</th>
+            <th>CEP</th>
+        </thead>
+        <tbody>
+            <td>São Paulo</td>
+            <td>SP</td>
+            <td>08062-220</td>
+        </tbody>
+        <tbody>
+            <td>Rio de Janeiro</td>
+            <td>RJ</td>
+            <td>30293-900</td>
+        </tbody>
+    </table>
+<br>
+    <address>Rua Agenor Rocha, 87</address>
+    
+<!--Criar Lista Ordenada-->
+<h2>Lista Ordenada</h2>
+    <ol type="I"> <!--1 A a I i-->
+        <li>Trabalhar</li>
+        <li>Faculdade</li>
+        <li>Casa</li>
+        <li>Carro</li>
+    </ol>
+
+<h2>Lista Desordenada</h2>
+    <ul type="circle"> <!--square disk circle-->
+        <li>Trabalhar</li>
+        <li>Estudar</li>
+        <li>Casa</li>
+        <li>Carro</li>
+    </ul>
+
+<h2>Misturando listas</h2>
+    <ol>
+        <li>Estudar</li>
+            <ul type="circle">
+                <li><abbr title="Hyper Text Markup Language">HTML</abbr></li>
+                <li><abbr title="Cascaring Style Sheet">CSS</abbr></li>
+            </ul>
+        <li>páginas teste</li>
+            <ul>
+                <li>
+                    <a href="picX.png" target="_blank">Teste foto</a> <!--abrir nova aba c/ _BLANK-->
+                </li>
+            </ul>
+    </ol>
+
+    <article> <!--conteúdo independente e autocontido. Postagens, notícias-->
+        <h2>Lorem</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium non obcaecati porro veniam possimus suscipit et! Suscipit dolorum reprehenderit odit culpa? Eos distinctio adipisci ratione? Nemo reiciendis dicta placeat in!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum voluptates sint ducimus, esse voluptatibus quibusdam consectetur inventore ut distinctio quod laudantium quidem id quisquam, aut delectus ad ratione? Dolorem, doloremque.</p>
+    </article>
+
+
+
+<!--Rodapé-->    
+<footer id="rodapepag">2021 - Israel C Alves &copy;</footer>
+
+
+</body>
+</html>

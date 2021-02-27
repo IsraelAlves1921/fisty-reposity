@@ -1,0 +1,116 @@
+body {
+    margin: 0 0 0 0;
+    background: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*=====TOPO=====*/
+
+.topo {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0%;
+    background-color: rgb(99, 99, 99);    padding: 40px;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(255, 99, 99)
+}
+/*======NAV=====*/
+ul {
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  p {
+      text-indent: 25px;
+      padding-left: 40px;
+      letter-spacing: 1px;
+      font-variant: small-caps;
+      
+    }
+
+a.botao:link {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.botao:hover, a.botao:active {
+    background: green;
+    color: white;
+}
+
+/*=====FORM======*/
+
+#form {
+    width: 500px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+    }
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    background: #D6D6D6;
+}
+
+#enviar {
+    background-color: white;
+    width: 85%;
+}
+
+/*======RODAPE======*/
+
+footer {
+    font: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.linkemail {
+    text-decoration: none;
+    color: #6e6e6e;
+
+}

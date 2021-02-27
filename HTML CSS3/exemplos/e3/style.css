@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(img/logo.png);
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background: white;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+
+}
+
+#formulário {
+    background: wheat;
+    padding: 0 0 0 0;
+    position: relative;
+}
+
+#data-table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+}

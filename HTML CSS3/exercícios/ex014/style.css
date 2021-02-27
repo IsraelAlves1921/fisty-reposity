@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* regra para não haver problemas com acentuação*/
+
+body {
+    background-image: url();
+    font-family: Arial, Helvetica, sans-serif;
+}
